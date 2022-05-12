@@ -25,7 +25,6 @@ Today we'll analyse the 1984 book written by George Orwell using R. 1984 is a dy
 - [Back to Goals](#back-to-goals)
 - [Conclusion](#conclusion)
 - [Resources](#resources)
-- [Todo](#todo)
 
 ## Goals
 
