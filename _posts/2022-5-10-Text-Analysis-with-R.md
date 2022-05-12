@@ -2,7 +2,7 @@
 title: Semantic Analysis of 1984 Book by George Orwell
 date: 2022-05-10 10:52:15 +0800
 categories: [Data Science]
-tags: [R, data science, text-analysis]
+tags: [r, data science, text-analysis]
 ---
 
 # Semantic Analysis of 1984 Book by George Orwell
