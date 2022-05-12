@@ -23,7 +23,7 @@ timezone:
 
 title: Junnn's Corner                         # the main title
 
-tagline: My comfort zone <3   # it will display as the sub-title
+tagline: My comfort zone   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
