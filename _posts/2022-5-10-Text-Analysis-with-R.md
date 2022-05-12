@@ -148,6 +148,22 @@ for (x in 1:length(files_name)){
 
 ## Analysing data
 
+Here we will be using lexicons to get the sentiment value.
+
+Lexicons available:
+
+|Lexicon |Sentiments | Output|
+|---|---|---|
+|  bing | Positive, Negative |[-1, 1]|
+|nrc|Positive, Negative, Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, Trust|[-1, 1]|
+|afinn|Positive, Negative|[-5, 5]|
+
+Do note that all these lexicons are based on unigrams. So it _can't_ process preceeding words that affect the scores of sentiments such as "not", "never". Besides, lexicons like `bing` and `nrc` give _same_ value for "very happy" and "happy" which should have _different_ sentiments value.
+
+We will also use `tidy_text` library, and the common flow is as below:
+
+![Flow Chart](/assets/images/text-analysis-with-R/flowchart_text_analysis.png "Flow Chart for Text Analysis with tidy_text")
+
 ### Word Cloud
 
 Before we analyse the text, we will first convert the full text into [text corpus](https://hypersense.subex.com/aiglossary/corpus/). Text corpus is just a collections of documents that has specific attributes and is mostly used in machine learning and NLP.
@@ -431,6 +447,8 @@ ggraph(bigram_graph, layout='fr')+
 
 ![Negation Bigram Network](/assets/images/text-analysis-with-R/negation_bigram_network.png "Negation Bigram Network")_Negation Bigram Network_
 
+## Problems with `get_sentiments`
+
 ## Back to Goals
 
 Wew we have done a lot huh! Now let's look back our goals and answer them all!
@@ -476,4 +494,3 @@ We plotted some graphs to perform text analysis, below are the graphs that we've
 - [Text mining and word cloud fundamentals in R](http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know)
 - [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html)
 - [Tidy Sentiment Analysis in R](https://www.datacamp.com/tutorial/sentiment-analysis-R#descriptivestatistics)
-
