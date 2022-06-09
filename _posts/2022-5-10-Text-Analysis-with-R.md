@@ -1,11 +1,11 @@
 ---
-title: Semantic Analysis of 1984 Book by George Orwell
+title: Sentiment Analysis of 1984 Book by George Orwell
 date: 2022-05-10 10:52:15 +0800
 categories: [Data Science]
-tags: [r, data science, text-analysis]
+tags: [r, data science, sentiment-analysis]
 ---
 
-# Semantic Analysis of 1984 Book by George Orwell
+# Sentiment Analysis of 1984 Book by George Orwell
 
 Today we'll analyse the 1984 book written by George Orwell using R. 1984 is a dystopian social science fiction novel and it was published on 8 June 1949. It has 8 chapters for Part 1, 9 for Part 2 and 6 for Part 3. 3 of the main characters are Winston Smith, Julia and O'Brien. To know more about the plot, read [Wikipedia](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four)
 
